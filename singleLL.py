@@ -113,10 +113,12 @@ class LinkedList:
 
 
 ll1=LinkedList()
-ll1.add_begin(1)
+ll1.add_begin(10)
+ll1.add_end(8)
 ll1.add_end(12)
 ll1.add_after(8,1)
 ll1.add_before(10,12)
+ll1.add_before(12,111)
 ll1.delete_by_value(12)
 ll1.print_LL()
 
